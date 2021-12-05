@@ -73,6 +73,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 The app is meant to have a map where is possible visualize the information for each state of the country having in mind the obtained information. When the application loads for the first time, it should be visualized the map with the information. The application should have a lateral menu, which contains a filter functionality to search though each state showing extra details.
 
+### Getting it running
+
+1. clone the app from the git repo
+2. open the cloned folder in your editor
+3. move into the app folder and type "yarn install" in the terminal to install dependencies.
+4. run "yarn start" to start your localhost and view the project
+5. enjoy!!
+6. reach out to me and lets discuss it more :-)
+
 ### Solution Focus
 
 The solution focuses on the front-end because am applying for a front end role
