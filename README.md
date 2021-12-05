@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Project Description
+
+The app is meant to have a map where is possible visualize the information for each state of the country having in mind the obtained information. When the application loads for the first time, it should be visualized the map with the information. The application should have a lateral menu, which contains a filter functionality to search though each state showing extra details.
+
+### Solution Focus
+
+The solution focuses on the front-end because am applying for a front end role
+
+### Technical Choices and reasoning behind
+
+1. React - I chose React because I am proficient with the library and super performant.
+2. Diseases.sh API - I used this API instead of the one provided because the one provided was shut down in June 2021. Diseases.sh still had covid data in their platform.
+3. Materia UI - Easier getting up and running with some of the already built in components such as Cards.
+4. Chart Js - Offers a very easy way of implementing charts in React
+5. Leaflet - I used this to generate the map functionality because am familiar with the technology and requires very little configuration to get up and running
+
+### Tradeoffs
+
+1. Mapping US states - I chose to use countries instead of states in the map implementation because state data was scarce to find and the API I found on countries had all the necessary data I needed for this project(including latitude and longitude coordinates).
+2. Clicking on state and highlighting its border along with its details - I chose to use circles as indicators of countries and they differed in size depending on the the number of infections in a region. Instead of mapping a border when clicked, I implemented a pop up that would give all covid details of the country and even had a flag displayed in the pop up.
+3. Search functionality - Instead of searching to get a state and get all its information, I had a drop down that has all countries and once one is selected, I have Information boxes that get populated with information of that state.
